@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav{
+    display: flex;
+    gap:20px;
+}
+
+/*header*/
+
+header{  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+}
+
+header ul{
+    display: flex;
+    gap: 20px;
+}
+.menu{
+    height: 110px;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(187, 201, 248);
+    display: flex;
+    flex-direction: row;
+}
+.titulo{
+    margin: 1em 1em;
+}
+.texto{
+    margin: 1em 1em;
+}
+
+.home1{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+}
+.home1:active{
+    background-color: rgb(34, 122, 34);
+    color:rgb(255, 255, 255);;
+    outline: initial;
+}
+
+/*secao1*/
+
+.secao1{
+    width: 100vw;
+    background-color: rgb(187, 201, 248);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.caixa{
+    width: 100vw;
+    height: 40vh;
+    background-image: url(img/contato.png);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo_caixa{
+    font-size: 35px;
+}
+
+.contats{
+    background-color: rgb(187, 201, 248);
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.caixatext{
+    font-size: medium;
+    background: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border-color: rgb(30, 30, 182);
+    border-width: 2px;
+    color: rgb(255, 255, 255);;
+    background-color: rgb(255, 255, 255);;
+}
+.caixatextm{
+    font-size: medium;
+    padding: 60px 20px;
+    border-radius: 4px;
+    border-color: rgb(30, 30, 182);
+    border-width: 2px;
+    background-color: rgb(255, 255, 255);;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(126, 118, 118);
+    opacity: 1; /* Firefox */
+}
+
+.botao1{
+    border: none;
+    font-size: medium;
+    color: rgb(255, 255, 255);;
+    background-color: rgb(30, 30, 182);
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/*secao2*/
+
+.secao2{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(187, 201, 248);
+}
+.informa{
+    margin-bottom: 15px;
+}
+
+.ende{ 
+    color: rgb(34, 122, 34);
+}
+.zap{
+    color: rgb(34, 122, 34);
+}
+
+/*rodape*/
+
+.rodape{
+    width: 100vw;
+    align-items: center;
+    background-color: rgb(187, 201, 248);
+    display: flex;
+    flex-direction: column;
+}
+.pe{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100vw;
+    height: 250px;
+    border: 1px solid;
+    background: rgb(34, 122, 34);
+    align-items: center;
+    justify-content: space-between;
+}
+.mapa{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    gap: 10px; 
+}
+.textoroda{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    gap: 10px;
+}
+.caixatexto{
+    font-size: medium;
+    width: 20vw;
+    padding: 10px 20px;
+    border-radius: 2px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+}
+
+.botao2{
+    border: none;
+    font-size: medium;
+    background-color: rgb(255, 255, 255);;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.informacao{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.redes{
+    display: flex;
+    align-items: center;
+}
+.social{
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+    /*header*/
+    .menu{
+        flex-direction: column;
+        height: 150px;
+    }
+    /*secao1*/
+    .secao1{
+        height: 1000px;
+    }
+    .caixa{
+        margin-top: 50px;
+        height: 500px;
+    }
+    .contats{
+        height: 500px;
+    }
+    .para{
+        margin: 0 1em;
+    }
+    .caixatext{
+        width: 90vw;
+        padding: 10px 10px;  
+    }
+    .caixatextm{
+        width: 90vw;
+        padding: 30px 4px;   
+    }
+    /*secao2*/
+    .ende{ 
+        margin: 0 1em;  
+    }
+    .zap{
+        margin: 0 1em;
+    }
+    /*rodape*/
+    .newsletter{
+        flex-direction: column;
+        width: 100vw;
+        height: 500px;
+    }
+    .mapa{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .news{
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+    .caixatexto{
+        width: 90vw;   
+    }  
+    .informacao{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+
