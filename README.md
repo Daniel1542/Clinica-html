@@ -15,3 +15,10 @@ Este é um projeto experimental de sistema para uma clínica que inclui apenas H
    git clone https://github.com/seu-usuario/clinica.git
    
 2. Abra o index.HTML
+   
+## Licença
+Este projeto é licenciado sob a Licença MIT.
+
+
+
+
