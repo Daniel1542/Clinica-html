@@ -17,7 +17,7 @@ Este é um projeto experimental de sistema para uma clínica que inclui apenas H
 2. Abra o index.HTML
    
 ## Licença
-Este projeto é licenciado sob a Licença MIT.
+Este projeto é licenciado sob a [licença MIT](https://opensource.org/licenses/MIT).
 
 
 
